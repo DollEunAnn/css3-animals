@@ -7,6 +7,12 @@
 body{
 	height: 5000px;
 }
+.container-left{
+	float: left;
+}
+.container-right{
+	float: right;
+}
 
 /*BEE*/
 
@@ -141,9 +147,125 @@ body{
 	left: 215px;
 	border-radius: 0 0 90px 0;
 }
+/*PARROT*/
+.parrot{
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	right: 120px;
+	padding-right: 40px;
+}
+.parrot .wings,
+.parrot .eyes,
+.parrot .beak,
+.parrot .beakk{
+	position: absolute;
+}
+.parrot .body{
+	width: 250px;
+	height: 250px;
+	background-color: #79B427;
+	border-top-left-radius: 120px;
+	border-bottom-right-radius: 120px;
+}
+.parrot .wings{
+	width: 120px;
+	height: 120px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background-color:#3A5F11;
+	bottom: 0;
+}
+.parrot .eyes{
+	width: 25px;
+	height: 25px;
+	background-color: #2A5812;
+	border-radius: 50%;
+	border:solid 8px #fff;
+	right: 55px;
+	margin-top: 20px;
+}
+.parrot .beak{
+	height: 50px;
+	width: 40px;
+	background-color: #FAA01E;
+	right:0;
+}
+.parrot .beakk{
+	width: 23px;
+	height: 23px;
+	background-color:#FAA01E;
+	top: 50px;
+	right: 17px;
+	border-radius: 0 0 90px 0;
+}
+/*WHALE*/
+.whale{
+	position: relative;
+	float: right;
+	margin-top: 500px;
+	padding-right: 40px;
+	padding-left: 100px;
+	right: -142px;
+}
+.whale .belly,
+.whale .eye,
+.whale .fin-tail{
+	position: absolute;
+}
 
-
-
+.whale .body{
+	width: 250px;
+	height: 250px;
+	background-color: #39ADD0;
+	border-top-left-radius: 140px;
+	border-bottom-right-radius: 140px;
+}
+.whale .belly{
+	width: 190px;
+	height: 190px;
+	border-top-left-radius: 130px;
+	border-bottom-right-radius: 130px;
+	background-color:#B5D1D6;
+	bottom: 0;
+	margin-left: 60px;
+}
+.whale .eye{
+	width: 30px;
+	height: 30px;
+	background-color: #39ADD0;
+	border-radius: 50%;
+	border:solid 10px #fff;
+	right: 180px;
+	margin-top: 30px;
+}
+.whale .fin-top{
+	width: 40px;
+	height: 75px;
+	background-color:#39ADD0; 
+	border-top-left-radius: 60px;
+	margin-right: 200px;
+	margin-top: 142px;
+	position: absolute;
+	top:0;
+	left:60px;
+}
+.whale .fin-tail{
+	top:0;
+	margin-top: 230px;
+	width: 0px; 
+	height: 0px; 
+	border-right: 50px solid transparent; 
+	border-top: 50px solid #39ADD0; 
+	border-left: 50px solid #39ADD0; 
+	border-bottom: 50px solid #39ADD0; 
+	border-top-left-radius: 70px; 
+	border-top-right-radius: 70px; 
+	border-bottom-left-radius: 70px; 
+	border-bottom-right-radius: 70px;
+	transform: rotate(120deg);
+	-webkit-transform:rotate(120deg);
+}
 
 
 
