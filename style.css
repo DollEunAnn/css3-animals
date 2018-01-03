@@ -45,9 +45,9 @@ body{
 .bee .eyes{
 	width: 30px;
 	height: 30px;
+	margin-top: 50px;
 	background-color: #2B190A;
 	z-index: 10;
-/*	float: left;*/
 	border-radius: 50%;
 	border:solid 10px #fff;
 	left: 145px;
