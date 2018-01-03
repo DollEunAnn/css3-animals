@@ -1,0 +1,132 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/*BEE*/
+
+.bee .body,
+.bee .head,
+.bee .line,
+.bee .eyes{
+	position: absolute;
+	margin-left: 120px;
+}
+.bee{
+	padding-top: 20px;
+}
+.bee .body{
+	background-color: #FFD917;
+	width: 250px;
+	height: 300px;
+	z-index: 1;
+	border-radius:110px;
+	margin-top: 20px;
+}
+.bee .head{
+	background-color: #2B190A;
+	height: 125px;
+	width: 250px;
+	z-index: 3;
+	border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.bee .eyes{
+	width: 30px;
+	height: 30px;
+	background-color: #2B190A;
+	z-index: 10;
+/*	float: left;*/
+	border-radius: 50%;
+	border:solid 10px #fff;
+	left: 145px;
+}
+.bee #lefty{
+	margin-right: 0px;
+}
+.bee #righty{
+	margin-left: 20px;
+}
+.bee .line{
+	background-color: #2B190A;
+	width: 250px;
+	z-index: 2;
+}
+.bee #up{
+	margin-top: 150px;
+	height: 23px;
+}
+.bee #down{
+	margin-top: 200px;
+	height: 18px;
+}
+.bee .wings{
+	background-color: #ACDED3;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 125px;
+}
+.bee #left{
+	margin-left: 70px;
+	border-top-left-radius: 250px;
+	border-bottom-left-radius: 250px;
+}
+.bee #right{
+	margin-left: 150px;
+	border-top-right-radius: 250px;
+	border-bottom-right-radius: 250px;
+}
+.neddle{
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+  	border-right: 30px solid transparent;
+  	border-top: 30px solid #2B190A;
+  	margin-top: 315px;
+  	margin-left: 210px;
+}
+/*PENGUIN*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
