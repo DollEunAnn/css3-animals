@@ -267,6 +267,63 @@ body{
 	transform: rotate(120deg);
 	-webkit-transform:rotate(120deg);
 }
+.whale .fin-bottom{
+	z-index: 200px;
+	position: absolute;
+	left: 170px;
+	bottom: 100px;
+	top:0px;
+	margin-top:236px;
+	width: 0px; 
+	height: 0px; 
+	border-right: 50px solid transparent; 
+	border-top: 50px solid #39ADD0; 
+	border-left: 50px solid #39ADD0; 
+	border-bottom: 50px solid #39ADD0; 
+	border-top-left-radius: 70px; 
+	border-top-right-radius: 70px; 
+	border-bottom-left-radius: 70px; 
+	border-bottom-right-radius: 70px;
+	transform: rotate(90deg);
+	-webkit-transform:rotate(90deg);
+}
+.liner{
+	position: absolute;
+	background-color:#fff;
+	width: 5px;
+	height: 50px;
+	margin-top: 60px;
+	z-index: 100;
+}
+#one{
+	margin-left: 82px;
+	width: 4px;
+	margin-top: 120px;
+	height: 130px;
+}
+#two{
+	width: 4px;
+	margin-top: 85px;
+	margin-left: 112px;
+	height: 165px;
+}
+#three{
+	width: 5px;
+	margin-top: 68px;
+	margin-left: 147px;
+	height: 180px;
+}
+#four{
+	width: 5px;
+	height: 175px;
+	margin-left: 182px;
+}
+#five{
+	width: 4px;
+	height: 150px;
+	margin-left: 217px;
+}
+
 
 
 
